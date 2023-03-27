@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(149, 173, 190);
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+  /* height: 600px; */
+  width: 800px;
+  background-color: rgb(237, 245, 245);
+  margin: 0 auto;
+font-size:20px ;
+   }
+   h3{
+    font-size: 25px;
+    color: rgb(22, 54, 148);
+padding: 10px;
+border-bottom:1px solid #afafaf;
+   }
+   thead td{
+    padding: 5px;
+    color: rgb(235, 230, 240);
+    font-weight:bold;
+    background-color: rgb(33, 134, 234);
+   }
+
+   table{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+   
+   }
+   tbody td{
+    padding: 5px;
+   }
+
+   tbody tr:nth-child(even){
+    background-color: #d2dcdc;
+   }
+
+   .edit,.delete,.addbtn{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 2px 10px ;
+    border-radius: 4px;
+    /* display: block; */
+    text-align: center;
+    background-color: rgb(68, 124, 236);
+
+   }
+.delete{
+    background-color: rgb(221, 70, 70);
+
+}
+
+p{
+    text-align: right;
+   padding: 5px;
+}
+h3{
+    text-align: center;
+}
+.addbtn{
+    background-color: rgb(18, 150, 6);
+}
+
+
+.form-group{
+    
+    /* background-color: blue; */
+    margin-top: 16px;
+    padding: 20px;
+    
+   
+}
+.form-group label,.form-group input{
+    display: block;
+    font-size: 25px;
+   
+}
+button{
+
+    color: aliceblue;
+    padding: 2px 10px ;
+    border-radius: 4px;
+    /* display: block; */
+    text-align: center;
+    background-color: rebeccapurple;
+    font-size: 16px;  
+}
+.alert{
+    display: block;
+    padding: 10px;
+    color: rgb(8, 101, 13);
+    font-weight: bold;
+    border-radius: 4px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+   
